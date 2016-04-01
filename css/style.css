@@ -1,0 +1,366 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	/*
+		margin: 10px 10px 10px 10px; 
+		margin: 10px 50px 30px; 
+		margin: 10px 20px; 
+
+	*/
+}* {
+		transition: all 1s;
+}
+body {
+	min-width: 600px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+ul {
+	list-style: none;
+}
+header {
+	/*
+	background-image: url()
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 100% | 1000px | cover | contain;
+	*/
+	background: url('../images/bg.jpg') #fff no-repeat center center;
+	background-size: cover; 
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 64px;
+	
+}
+header .inner {
+	
+	padding-top: 300px;
+	padding-bottom: 60px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.inner p {
+	padding: 0px 30%;
+	padding-bottom: 20px;
+	line-height: 1.4;
+	font-family: "Segoe UI", sans-serif;
+	text-transform: capitalize;
+	font-size: 18px;
+	padding-top: 5px;
+}
+
+.menu {
+	background: rgba(255,255,255,0.7);
+	text-align: right;
+	box-shadow:         1px 3px 4px 0px rgba(50, 50, 50, 0.4);
+}
+.menu img {
+	float: left;
+	padding-top: 10px;
+}
+.menu ul {
+	list-style: none;
+
+}
+
+.menu ul li, .menu ul li a, header h1 {
+	display: inline-block;
+	text-decoration: none;
+}
+.menu ul li a {
+	color: rgba(69, 69, 69, 0.749);
+	text-decoration: none; /*underline*/
+	text-transform: capitalize; /*lowercase*/
+	font-size: 18px;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 1.2;
+	/*padding: 40px 10px;*/
+	padding-top: 28px;
+	padding-bottom: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: all 1s;
+}
+.menu ul li:last-child a {
+	background: #DE6D6E;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 3px;
+	color: #fff;
+}
+.menu ul li:last-child a i {
+	padding-right: 10px;
+}
+
+.menu ul:hover li a {
+	color: transparent;
+	text-shadow: 0 0 1px rgba(255,255,255,1.5);
+}
+.menu ul li a:hover {
+ 	color: rgba(69, 69, 69, 0.749);
+ 	text-shadow: none;
+}
+
+header h1 {
+	
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Segoe UI", sans-serif;
+	letter-spacing: 2px;
+/*	margin-bottom: 30px;
+	padding: 0px 5px;*/
+}
+
+.sect-1 {
+	text-align: center;
+	padding-bottom: 64px;
+	box-shadow:         1px 3px 4px 0px rgba(50, 50, 50, 0.4);
+}
+
+.sect-1 h2 {
+	font-size: 24px;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: normal;
+	color: #404040;
+	padding-bottom: 10px;
+}
+.sect-1 p {
+	font-size: 14px;
+	font-family: "Segoe UI", sans-serif;
+	color: #404040;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.sect-1-round {
+	padding-right: 70px;
+}
+.sect-1-round:hover .round-bl, .sect-1-round:hover .round-gr, .sect-1-round:hover .round-re,.sect-1-round:hover .round-or {
+	margin-left: 20px;
+	background: #000;
+}
+
+.round-bl {
+	background: #4EB9F4;
+	width: 150px;
+	height: 150px;
+}
+.round-bl img {
+	padding-top: 30px;
+}
+.round-gr {
+	background: #6FC125;
+	width: 150px;
+	height: 150px;
+}
+.round-gr img {
+	padding-top: 30px;
+}
+.round-re {
+	background: #FF5649;
+	width: 150px;
+	height: 150px;
+}
+.round-re img {
+	padding-top: 20px;
+}
+.round-or {
+	background: #E48F23;
+	width: 150px;
+	height: 150px;
+}
+.round-or img {
+	padding-top: 30px;
+}
+.sect-1 .block-of-4 {
+	margin-top: 50px;
+	padding-left: 50px;
+}
+.sect-1 .block-of-4 p {
+	padding-left: 0;
+	padding-right: 0;
+	color: #fff;
+}
+.sect-2 {
+	margin-top: 60px;
+}
+.sect-2 div + div {
+	margin-top: 100px;
+}
+
+.sect-2 img {
+	float: left;
+}
+.sect-2 h3 {
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Segoe UI", sans-serif;
+	color: #404040;
+	padding-bottom: 15px;
+}
+.sect-2 p {
+	color: #404040;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+}
+.sect-2 h3, .sect-2 p {
+	padding-left: 230px;
+}
+.text-center {
+	text-align: center;
+}
+
+footer {
+	background: url('../images/footer.jpg') #fff center center; 
+	margin-top: 100px;
+}
+footer ul {
+	margin-top: 35px;
+}
+footer ul li a {
+	color: #AEAEAE;
+	text-decoration: none; /*underline*/
+	text-transform: capitalize; /*lowercase*/
+	font-size: 14px;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 1.2;
+	/*padding: 40px 10px;*/
+
+	margin-right: 100px;
+	transition: all 1s;
+}
+footer p {
+	color: #AEAEAE;
+	text-transform: capitalize; /*lowercase*/
+	font-size: 14px;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 1.2;
+	margin-left: 25px;
+	transition: all 1s;
+}
+footer ul li:first-child a {
+	font-size: 18px;
+}
+footer ul li:first-child {
+	margin-bottom: 22px;
+}
+footer ul li:last-child {
+	margin-bottom: 25px;
+}
+.ic-foot {
+	margin-top: 50px;
+}
+.ic-foot img {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.ic {
+
+	color: #252825;
+	font-size: 25px;
+}
+.ic i {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.ball:hover {
+	background: #fff;
+}
+
+.ball {
+	background: #696B6A;
+	border-radius: 50%;
+	width: 52px;
+	height: 52px;
+	margin-left: 20px;
+	margin-bottom: 28px;
+}
+.wrap {
+	width: 1022px;
+	margin: 0 auto;
+	position: relative;
+}
+.wrap-2 {
+	width: 948px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.round {
+	border-radius: 50%;
+}
+.block-of-4 > * {
+	width: 22%;
+	margin-right: 4%;
+}
+.block-of-4 > * {
+	float: left;
+	box-sizing: border-box;
+}
+.block-of-4 > *:last-child {
+	margin-right: 0;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.width-50 {
+	width: 50%;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+
+.button, .button_2 {
+	display: inline-block;
+	text-transform: uppercase;
+	
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	font-weight: 400;
+	
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	cursor: pointer;
+	
+	transition: all 1s;
+	margin-top: 20px;
+	text-decoration: none;
+}
+.button {
+	color: #81B536;
+	border: 1px solid #81B536;
+	background-color: #fff;
+}
+.button:hover {
+	color: #fff;
+	background: #81B536;
+	border: 1px solid #81B536;
+}
+.button_2:hover {
+	color: #81B536;
+	background: #fff;
+	border: 1px solid #fff;
+}
+.button_2 {
+	border: 1px solid #fff;
+	background-color: #81B536;
+	color: #fff;
+
